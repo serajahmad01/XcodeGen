@@ -2,7 +2,7 @@ TOOL_NAME = XcodeGen
 export EXECUTABLE_NAME = xcodegen
 VERSION = 2.26.0
 
-PREFIX = ./xcodegen
+PREFIX = ./temp/xcodegen
 INSTALL_PATH = $(PREFIX)/bin/$(EXECUTABLE_NAME)
 SHARE_PATH = $(PREFIX)/share/$(EXECUTABLE_NAME)
 CURRENT_PATH = $(PWD)
